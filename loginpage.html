@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <style>
+    label{
+      color: yellowgreen;
+    }
+  </style>
+  <body>
+    <form action="./response.html" method="post">
+      <label for="username">USERNAME</label>
+      <input type="text" name="name" id="username" placeholder="enter username" pattern="[a-zA-Z0-9@!&#$]{5,20}"
+      title="please enter characters b/w 8 to 16 and must have one big alphabet,special symbol,number">
+      <br />
+      <label for="password">password</label>
+      <input type="password" name="password" id="password" placeholder="enter password" pattern="[a-zA-Z0-9@!&#$]{8,16}"
+      title="please enter characters b/w 8 to 16 and must have one big alphabet,special symbol,number"/>
+      <br />
+      <center><input type="submit" name="" id="" value="Login" /></center>
+      <br />
+      <center><input type="submit" name="button" value="Register" /></center>
+    </form>
+  </body>
+</html>
